@@ -1,7 +1,7 @@
 import React, { useState, createRef } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import EditText from './EditText'
-import './Memes.css'
+import './Style.css'
 import { exportComponentAsJPEG } from 'react-component-export-image';
 
 const Generate = () => {

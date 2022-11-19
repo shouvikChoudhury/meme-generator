@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './Memes.css'
+import './Style.css'
 import { useNavigate } from 'react-router-dom'
 
 const Memes: React.FC = () => {
