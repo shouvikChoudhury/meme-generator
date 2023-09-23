@@ -4,13 +4,17 @@ import EditText from './EditText'
 import './Style.css'
 import { exportComponentAsJPEG } from 'react-component-export-image';
 
-const Generate = () => {
+const Generate: React.FC = () => {
     const memref = createRef<any>()
+
     const [params] = useSearchParams()
+
     const [count, setcount] = useState<number>(0)
+
     const addHandler = () => {
         setcount(count + 1)
     }
+
     return (
         <div className='card ml-5 mt-3'>
             <div className="row">
